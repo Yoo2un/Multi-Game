@@ -1,9 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameManager
     - Information
     - LobbyCount
     - LobbyManager
+    - PhotonControl
     - PhotonManager
     - PhotonSetting
     PhotonUnityNetworking.Demos.dll:
@@ -135,9 +137,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -146,6 +156,10 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 22362}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -382,6 +396,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5692}
     - Class: 114
       Script: {instanceID: 5834}
+    - Class: 114
+      Script: {instanceID: 21152}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1769,6 +1785,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Information
+  - hash:
+      serializedVersion: 2
+      Hash: a648c58913dd6095ce8cfd8be514a4ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PhotonControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Photon Setting.unity

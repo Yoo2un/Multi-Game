@@ -413,16 +413,7 @@
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/RemoteSpeakerUI.cs"
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/SidebarToggle.cs"
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs"
-"Assets/Script/Billboard.cs"
 "Assets/Script/Data.cs"
-"Assets/Script/FileLoad.cs"
-"Assets/Script/GameManager.cs"
-"Assets/Script/Information.cs"
-"Assets/Script/LobbyCount.cs"
-"Assets/Script/LobbyManager.cs"
-"Assets/Script/PhotonControl.cs"
-"Assets/Script/PhotonManager.cs"
-"Assets/Script/PhotonSetting.cs"
 -langversion:9.0
 
 /deterministic

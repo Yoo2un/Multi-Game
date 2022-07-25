@@ -2,10 +2,11 @@
 
 # All files
 [*]
-charset = utf-8
 indent_style = space
+
+[*]
+charset = utf-8
 
 # Xml files
 [*.xml]
 indent_size = 2
-
